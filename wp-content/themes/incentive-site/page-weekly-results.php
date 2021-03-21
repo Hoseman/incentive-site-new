@@ -260,7 +260,7 @@ endwhile; // End of the loop.
 
                         <div class="weekly-results__col">
                         <div class="weekly-results__card">
-                        
+                        <span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>
                         <h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
 
@@ -347,7 +347,7 @@ endwhile; // End of the loop.
 						?>
                         <div class="weekly-results__col">
                         <div class="weekly-results__card">
-
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>			
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -435,6 +435,7 @@ endwhile; // End of the loop.
 
                         <div class="weekly-results__col">
                         <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>	
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -518,7 +519,8 @@ endwhile; // End of the loop.
 						?>
 
                         <div class="weekly-results__col">
-                        <div class="weekly-results__card">            
+                        <div class="weekly-results__card">    
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>	        
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -602,7 +604,8 @@ endwhile; // End of the loop.
 						?>
 
                         <div class="weekly-results__col">
-                        <div class="weekly-results__card">             
+                        <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>	             
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -688,6 +691,7 @@ endwhile; // End of the loop.
 
                         <div class="weekly-results__col">
                         <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>	
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -773,6 +777,7 @@ endwhile; // End of the loop.
 
                         <div class="weekly-results__col">
                         <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -859,7 +864,8 @@ endwhile; // End of the loop.
 						?>
 
                         <div class="weekly-results__col">
-                        <div class="weekly-results__card">            
+                        <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>            
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -944,7 +950,8 @@ endwhile; // End of the loop.
 						?>
 
                         <div class="weekly-results__col">
-                        <div class="weekly-results__card">  
+                        <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span>  
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -1030,7 +1037,8 @@ endwhile; // End of the loop.
 						?>
 
                         <div class="weekly-results__col">
-                        <div class="weekly-results__card"> 
+                        <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span> 
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -1114,7 +1122,8 @@ endwhile; // End of the loop.
 						?>
 
                         <div class="weekly-results__col">
-                        <div class="weekly-results__card"> 
+                        <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span> 
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         
@@ -1201,7 +1210,8 @@ endwhile; // End of the loop.
 						?>
 
                         <div class="weekly-results__col">
-                        <div class="weekly-results__card"> 
+                        <div class="weekly-results__card">
+						<span class="weekly-results__trophy"><i class="fas fa-trophy"></i></span> 
 						<h2 class="weekly-results__header">Week <?php echo $week; ?><span class="weekly-results__subheader">Top 10</span></h2>
 						<h3 class="weekly-results__dates">FROM <?php echo date("F d",strtotime($start_date)) ?> TO <?php echo date("F d",strtotime($end_date)); ?></h3>
                         

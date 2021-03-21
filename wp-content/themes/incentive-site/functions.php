@@ -184,9 +184,9 @@ function ah_enqueue(){
 	$uri = get_template_directory_uri();
     wp_register_style('ah_google_fonts_1', 'https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
     wp_register_style('ah_font_awesome', 'https://pro.fontawesome.com/releases/v5.2.0/css/all.css?'.uniqid());
-    wp_register_style('ah_main', $uri . '/css/main.css?'.uniqid());
-    wp_register_style('ah_hamburger', $uri . '/css/hamburgers.css?'.uniqid());
-	wp_register_style('ah_owl', $uri . '/css/owl.carousel.min.css?'.uniqid());
+    wp_register_style('ah_main', $uri . '/dist/css/main.css?'.uniqid());
+    wp_register_style('ah_hamburger', $uri . '/dist/css/hamburgers.css?'.uniqid());
+	wp_register_style('ah_owl', $uri . '/dist/css/owl.carousel.min.css?'.uniqid());
 
 
     wp_enqueue_style('ah_google_fonts_1');
@@ -196,10 +196,14 @@ function ah_enqueue(){
 	wp_enqueue_style('ah_owl');
 
 	//wp_register_script('ah_jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js', [], false, true);
-    wp_register_script('ah_mainjs', $uri . '/js/main.js?'.uniqid(), [], false, true);
+    wp_register_script('ah_mainjs', $uri . '/dist/js/main.min.js?'.uniqid(), [], false, true);
+	wp_register_script('ah_lodashjs', $uri . '/dist/js/lodash.js?'.uniqid(), [], false, true);
+	
+
 
 	//wp_enqueue_script('ah_jquery');
     wp_enqueue_script('ah_mainjs');
+	wp_enqueue_script('ah_lodashjs');
 
 }
 

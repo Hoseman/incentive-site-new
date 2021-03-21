@@ -1,0 +1,63 @@
+.weekly-results {
+    & .display-flex {
+        flex-wrap: wrap;
+        margin-bottom: 7rem;
+        margin-top: 7rem;
+    }
+    & .weekly-results__col {
+        width:49%;
+        margin-left:0.5%;
+        margin-right:0.5%;
+        margin-bottom:2rem;
+    }
+    & .weekly-results__card {
+        background: $white;
+        padding: 1.3rem;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        position:relative;
+        .weekly-results__trophy {
+            position:absolute;
+            background:$green;
+            border-radius:5.5rem;
+            padding:1.5rem 1.4rem;
+            right:1.5rem;
+            top:1.9rem
+        }
+        & i {
+            font-size:3.7rem;
+            color:lighten($green, 50%);
+        }
+        & .weekly-results__subheader {
+            font-size:2.9rem;
+            margin-left: 1.3rem;
+        }
+        & .weekly-results__header {
+            font-size:4.9rem;
+            margin-top: 0.5rem;
+        }
+        & .weekly-results__dates {
+            font-size:2.1rem;
+            margin-top:0.8rem;
+        }
+    }
+    & .weeks-table {
+        font-size: 1.5rem;
+        line-height:1.8rem;
+        margin:1rem 0 0 0;
+        & th {
+            background:$green;
+            color:$white;
+            padding:0.5rem 0.7rem;
+            text-align: left;
+        }
+        & td {
+            background:$pale-grey;
+            padding:0.5rem 0.7rem;
+            color:$black;
+            border-bottom: 2px solid $white;
+        }
+        & tr {
+            border-bottom:1px solid $white;
+        }
+    }
+}

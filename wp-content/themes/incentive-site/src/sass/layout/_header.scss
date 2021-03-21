@@ -1,0 +1,168 @@
+.header {
+    width:100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    z-index: 9;
+    & .header__topbar {
+        background:$black;
+        height:1.5rem;
+        width:100%;
+    }
+    & .header__wrapper {
+        background:$white;
+        width:100%;
+        max-width:1350px;
+        // min-width:700px;
+        margin-left:auto;
+        margin-right:auto;
+        padding-left:3rem;
+        padding-right:3rem;
+        clip-path: polygon(0 0, 100% 0, 89% 100%, 11% 100%);
+    }
+    @include mediaquery("tablet-992"){
+        & .header__wrapper {
+            clip-path: none;
+            background:transparent;
+        }
+    }
+    @include mediaquery("tablet-768"){
+        & .header__wrapper {
+            height:60px;
+            margin-top: 3.6rem;
+            position:relative;
+        }
+    }
+    @include mediaquery("phone-480"){
+        & .header__wrapper {
+            margin-top: 2.8rem;
+        }
+    }
+    @include mediaquery("phone-400"){
+        & .header__wrapper {
+            margin-top: 2.2rem;
+        }
+    }
+    & .header__menu  {
+        margin-left:-15px;
+        & li {
+            display: inline-block;
+            list-style-type:none;
+            &:nth-child(2) {
+                margin-right: 12rem !important;
+            }
+            &:nth-child(3) {
+                margin-left: 12rem !important;
+            }
+            @include mediaquery("desktop-1100"){
+                &:nth-child(2) {
+                    margin-right: 10rem !important;
+                }
+                &:nth-child(3) {
+                    margin-left: 7rem !important;
+                }
+            }
+            @include mediaquery("tablet-992"){
+                &:nth-child(2) {
+                    margin-right: 14rem !important;
+                }
+                &:nth-child(3) {
+                    margin-left: 7rem !important;
+                }
+            }
+            @include mediaquery("tablet-768"){
+                &:nth-child(2) {
+                    margin-right: 0rem !important;
+                }
+                &:nth-child(3) {
+                    margin-left: 0rem !important;
+                }
+            }
+        }
+        & li a {
+            display: inline-block;
+            font-size: 1.5rem;
+            padding: 4rem 0rem;
+            margin:0 3rem;
+            font-weight:600;
+            color:$dark-grey;
+            opacity:0.7;
+            border-bottom: 5px solid transparent;
+            transition: all 0.15s ease-in;
+            text-decoration:none;
+            @include mediaquery("desktop-1100"){
+                font-size: 1.3rem;
+            }
+            @include mediaquery("tablet-992"){
+                margin:0 1rem;
+                color:$white;
+                font-size: 1.35rem;
+            }
+            @include mediaquery("tablet-768"){
+                padding: 0rem;
+            }
+            @include mediaquery("phone-480"){
+                margin:0 0.3rem;
+            }
+            &:hover {
+                border-bottom: 5px solid $green;
+                text-decoration:none;
+                opacity:1;
+            }
+        }
+    }
+
+    & .header__logo {
+        width: 16.8rem;
+        @include absCenter();
+        top: 7.2rem;
+        z-index:9999;
+        & .header__logoimg {
+            width: 100%;
+        }
+    }
+    @include mediaquery("tablet-768"){
+        & .header__logo {
+            position:relative !important;
+        }
+    }
+    & .header__logo-toggle {
+        width: 12.1rem !important;
+        position: fixed;
+        top: 5.3rem;
+    }
+    @include mediaquery("tablet-560"){
+        & .header__logo {
+            width: 12.0rem;
+            top: 5.5rem;
+        }
+    }
+    @include mediaquery("phone-480"){
+        & .header__logo {
+            width: 9.0rem;
+            top: 5.2rem;
+        }
+    }
+    @include mediaquery("phone-400"){
+        & .header__logo {
+            width: 9.0rem;
+            top: 4.1rem;
+        }
+    }
+}
+.main-nav-toggle {
+    width: 100% !important;
+    max-width: 100% !important;
+    position: fixed;
+    border-top: 10px solid black;
+    clip-path: none !important;
+    top:0;
+    background:$pale-grey !important;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.3);
+    height: 95px;
+    & ul li a {
+        padding: 2.7rem 0rem !important;
+        color: #46464c !important;
+    }
+}
